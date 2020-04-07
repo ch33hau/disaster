@@ -24,6 +24,12 @@ It also includes the steps of cleaning data, and training for the model.
 
 All the outcomes of above will be then converted to a python Flask app, which allows user to test the features on their browser.
 
+***Visualization page***
+![](image2.png)
+
+***Result page***
+![](image1.png)
+
 ## File Descriptions
 
 - `app`: This folder contains all python code:
@@ -36,7 +42,7 @@ All the outcomes of above will be then converted to a python Flask app, which al
 - `ETL Pipeline Preparation.ipynb`: The exploration notebook that helps to develop `process_data.py` for ETL pipeline.
 - `ML Pipeline Preparation.ipynb`: The exploration notebook that helps to develop `train_classifier` for ML pipeline.
 
-### Instructions:
+## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -48,3 +54,9 @@ All the outcomes of above will be then converted to a python Flask app, which al
     `python3 app/run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+## Licensing, Authors, Acknowledgements
+
+This is the project from Udacity Data Scientist Nanodegree. The data, notebooks, and Flask code templates were provided by Udacity. 
+
+The modified code in this project is for learning purpose and they are free to use.
